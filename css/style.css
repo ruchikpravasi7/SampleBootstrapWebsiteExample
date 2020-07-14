@@ -1,0 +1,242 @@
+.topnav {
+    height: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.fixed-top .nav-item:hover, .fixed-top .nav-item  .dropdown-item:hover {
+    color: purple;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+#line{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.slider{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#bothead{
+    margin-top: 15px;;
+    height: 4px;
+    background-color: greenyellow;
+}
+
+.botcon{
+    background-color: #345;
+    color: #d3d3d3;
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.relative-bottom{
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.botcon a{
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.botcon a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.fixed-top .active{
+    background-color: #8b0;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+#custxt{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-style: italic;
+    align-content: center;
+}
+
+#who{
+    color: #b58;
+}
+
+.justify{
+    text-align: justify;
+}
+
+/* Card Flip Animation */
+
+.flip-card {
+    background-color: transparent;
+    width: auto;
+    height: 72px;
+    border: 2px solid #f1f1f1;
+    perspective: 1000px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: auto;
+    height: 72px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 5px;
+  }
+  .flip-card-inner img{
+    height: 70px;
+    width: auto;
+    border-radius: 3px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 5px;
+  }
+
+  .inbox{
+      font-size: 75%;
+  }
+
+  .inbox > a {
+      color: #d3d3d3;
+  }
+
+  .inbox > a:hover {
+    color: white;
+}
+
+#fb{
+    background-color:#46a;
+}
+
+#fb:hover {
+    color: #46a;
+    background-color: white;
+}
+
+#twitter:hover{
+    color: #2bf;
+}
+
+.def a{
+    color: black;
+}
+
+.def a :hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* For placements */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    text-align: left;
+    content: inherit;
+}
+
+tr:nth-child(even) {
+    background-color: #fec;
+}
+
+.parallax{
+      /* The image used */
+  background-image: url("../images/courses.jpg");
+
+  /* Set a specific height */
+  height: 175px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+}
+
+#spbtn{
+    background-color: transparent;
+    border:none;
+    margin:55px;
+}
+
+#spbtn a{
+    border: 2px solid white;
+    background-color: gainsboro;
+    color: black;
+    font-size: 40px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+#spbtn :hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    opacity: 1
+}
+
+/* a{
+    text-decoration: none;
+    color: grey;
+}
+
+i{
+    font-size: 150%;
+}
+
+#email:hover{
+    color: red;
+}
+
+#fb:hover{
+    color: #46a;
+}
+
+#tw:hover{
+    color: #0ce;
+} */
